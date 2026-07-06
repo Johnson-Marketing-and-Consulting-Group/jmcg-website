@@ -133,6 +133,12 @@ export function Footer() {
 
         <div className="border-t border-gray-700 pt-8 text-center text-sm text-gray-400">
           <p>&copy; 2025 Johnson Marketing & Consulting Group. All rights reserved.</p>
+          <Link
+            to="/privacy"
+            className="inline-block mt-3 text-gray-400 hover:text-[#EFA82F] transition-colors"
+          >
+            Privacy Policy
+          </Link>
         </div>
       </div>
     </footer>
